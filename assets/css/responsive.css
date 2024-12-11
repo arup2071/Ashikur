@@ -1,0 +1,60 @@
+/* nav responsive */
+/* nav bar responsive */
+@media (min-width: 992px) {
+  nav.navbar.shadow {
+    box-shadow: none !important;
+  }
+}
+
+/* banner responsive */
+
+@media (max-width: 991px) {
+  .btn.btn-outline,
+  .btn {
+    padding: 8px 20px;
+    font-size: 10px;
+    line-height: 180%;
+    border-radius: 10px;
+  }
+  #banner {
+    padding: 25px;
+  }
+  #banner h4 {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  #banner h1 {
+    margin: 8px 0 15px;
+    font-size: 41px;
+  }
+  #banner p {
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+  #banner .btn-primary {
+    margin-right: 10px;
+  }
+  #banner .socialLink {
+    margin-top: 20px;
+  }
+
+  /* Experience */
+  .timeline {
+    border-left: 2px dashed #7a7a7a;
+    padding-left: 30px;
+    max-width: 90%;
+    margin: auto;
+  }
+  .timeline .date {
+    border-right: none;
+    padding-bottom: 12px;
+  }
+  .timeline .date::before {
+    right: auto;
+    left: -39px;
+  }
+  .timeline .date::after {
+    left: -28px;
+    right: auto;
+  }
+}
